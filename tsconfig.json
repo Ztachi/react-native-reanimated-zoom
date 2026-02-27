@@ -4,7 +4,10 @@
     "jsx": "react-native",
     "lib": ["ES2022"],
     "rootDir": "src",
-    "noEmit": true
+    "noEmit": false,
+    "declaration": true,
+    "declarationDir": "./dist",
+    "skipLibCheck": true
   },
   "include": ["src"]
 }
