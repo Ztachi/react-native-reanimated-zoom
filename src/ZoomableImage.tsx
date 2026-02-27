@@ -330,7 +330,13 @@ export function ZoomableImage({
   useEffect(() => {
     // 调用方已提供尺寸，无需异步检测
     if (imageWidth && imageHeight) {
-      setImgSize({ width: imageWidth, height: imageHeight });
+      // eslint-disable-next-line react-hooks/set-state-in-effect
+      setImgSize((prev) => {
+        if (prev && prev.width === imageWidth && prev.height === imageHeight) {
+          return prev;
+        }
+        return { width: imageWidth, height: imageHeight };
+      });
       return;
     }
     let cancelled = false;

@@ -1,11 +1,3 @@
-/*
- * @Author: ztachi(legendryztachi@gmail.com)
- * @Date: 2026-02-27 19:07:26
- * @LastEditors: ztachi(legendryztachi@gmail.com)
- * @LastEditTime: 2026-02-27 19:07:29
- * @FilePath: /ios/packages/image-preview/vite.config.ts
- * @Description: 
- */
 import { defineConfig } from 'vite';
 import dts from 'vite-plugin-dts';
 import path from 'path';
