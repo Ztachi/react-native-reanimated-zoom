@@ -8,12 +8,12 @@
   "description": "A performant, gesture-based zoomable image preview component for React Native, powered by Reanimated v3 and Gesture Handler v2.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/strawberrybear/react-native-reanimated-zoom.git"
+    "url": "https://github.com/ztachi/react-native-reanimated-zoom.git"
   },
   "bugs": {
-    "url": "https://github.com/strawberrybear/react-native-reanimated-zoom/issues"
+    "url": "https://github.com/ztachi/react-native-reanimated-zoom/issues"
   },
-  "homepage": "https://github.com/strawberrybear/react-native-reanimated-zoom#readme",
+  "homepage": "https://github.com/ztachi/react-native-reanimated-zoom#readme",
   "author": "ztachi <legendryztachi@gmail.com>",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
