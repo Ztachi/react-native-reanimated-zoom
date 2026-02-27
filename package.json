@@ -1,6 +1,6 @@
 {
   "name": "react-native-reanimated-zoom",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "A performant, gesture-based zoomable image preview component for React Native, powered by Reanimated v3 and Gesture Handler v2.",
   "repository": {
