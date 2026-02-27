@@ -1,4 +1,4 @@
-# @ztachi/react-native-reanimated-zoom
+# @ztachi007/react-native-reanimated-zoom
 
 A high-performance, physics-based zoomable image component for React Native, powered by **Reanimated v3** and **Gesture Handler v2**.
 
@@ -21,11 +21,11 @@ A high-performance, physics-based zoomable image component for React Native, pow
 ### 1. Install the package
 
 ```bash
-npm install @ztachi/react-native-reanimated-zoom
+npm install @ztachi007/react-native-reanimated-zoom
 # or
-yarn add @ztachi/react-native-reanimated-zoom
+yarn add @ztachi007/react-native-reanimated-zoom
 # or
-pnpm add @ztachi/react-native-reanimated-zoom
+pnpm add @ztachi007/react-native-reanimated-zoom
 ```
 
 ### 2. Install Peer Dependencies
@@ -45,7 +45,7 @@ npm install react-native-reanimated react-native-gesture-handler
 Simply pass the image URI. The component will automatically fetch the image size and handle the aspect ratio.
 
 ```tsx
-import { ZoomableImage } from '@ztachi/react-native-reanimated-zoom';
+import { ZoomableImage } from '@ztachi007/react-native-reanimated-zoom';
 
 export default function ImagePreview({ route }) {
   const { uri } = route.params;
